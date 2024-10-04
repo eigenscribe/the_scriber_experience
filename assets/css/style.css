@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Eagle+Lake&family=MedievalSharp&family=Philosopher&family=UnifrakturMaguntia&display=swap');
+
+:root {
+  --color-white: #e2e2e2;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65; 
+  --color-darkpurple: rgba(84,58,183,1);
+  --color-greenblue: rgba(0,172,193,1);  
+  --color-lightpurple: #764ba2;
+  --color-lightorange: #f5ce62;
+  --color-pinkorange: #e43603;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Aclonica', sans-serif;
+  color: var(--color-lightorange);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;  
+  background-image: url('https://assets.codepen.io/7124932/spacebackground_00.png?format=auto');
+  background-size: cover;
+}
+
+h1, h2{
+  font-family:  'Aclonica', sans-serif;
+  font-size: 4rem;
+  color: #2e2edc;
+  background: linear-gradient(to right top, #7cddfe,  #6878FF);
+  text-align:center;
+
+}
+h2{
+  font-size: 2rem;
+
+}
+p{
+  font-family:  'Aclonica', sans-serif;
+  font-size: 1rem;
+  color: var(--color-lightorange);
+  text-align:center;
+
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.blurb{
+  font-style: italic;
+  font-weight: bold;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+itemize{
+    font-size: 12pt
+}
+
+nav {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.logo {
+    padding-right: 10px;
+    font-size: 28px;
+    height: 75px;
+    max-width: inherit;
+}
+
+.title {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 2em;
+    white-space: nowrap;
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+}
